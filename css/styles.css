@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #525351;
+    color: aliceblue;
+}
+
+a, li {
+    font-family: 'roboto', sans-serif;
+    
+}
+
+.titulo{
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    height: 55px;
+    font-size: 12px;
+    background-color: black;}
+
+.info ul,.marcas ul, .banners ul{
+    display: flex;
+    align-items: center;
+}
+
+.marcas {
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    left: 0;
+    top: 0;
+}
+
+.info li, .marcas li {
+    margin-right: 1rem;
+}
+
+.info {
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    left: 0;
+    top:0;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-top: 0;
+}
+
+.nav {
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    left: 0;
+    padding: 0 2rem;
+    width: 100%;
+    border-top: 0;
+    box-shadow: 0 0 5px rgb(14, 177, 27);
+}
+
+.logo{
+    align-items: center;
+}
+
+.logo img {
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.menu {
+    height: 150px;
+    display: flex;
+    float: right;
+    top: 0;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 1.5rem;
+}
+
+.banners {
+    height: 140px;
+    left: 0px;
+    top: 0;
+    padding-top: 10px;
+}
+.propaganda{
+    margin-top: 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+#carouselExampleIndicators{
+    
+    width: 100%;
+    height: 270px;
+    display: flex;
+}
+
+.main{
+    position: relative;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+.main p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+
+
+.quienes_somos {
+    display: flex;
+    background-color: rgba(77, 99, 79, 0.329);
+    border-radius: 5px;
+}
+.local img{
+    padding-left: 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+.nuestros_articulos {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.articulos {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: .5rem;
+    color: black;
+}
+
+
+h2 {
+    color: aliceblue;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contacto{
+    color: aliceblue;
+    background-color: rgba(77, 99, 79, 0.329);
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.modal-content{
+    color: black;
+}
+.footer{
+    margin-top: 30px;
+    background: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acerca_de_footer {
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 10rem;
+}
+.contacto_footer{
+    margin-top: 10px;
+}
+.redes_footer{
+    margin-top: 10px;
+    margin-right: 10rem;
+}
+.data_fiscal{
+    font-family: 'roboto';
+    display: block;
+    text-align: center;
+    
+    background: forestgreen;
+    width: 100%;
+    height: 40px;
+}
+.data_fiscal p{
+    color: aliceblue;
+}
